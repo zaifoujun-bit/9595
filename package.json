@@ -1,0 +1,10 @@
+{
+  "name": "wordboat-static",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node tests/progress.cjs",
+    "build": "python3 tools/build_release.py"
+  },
+  "devDependencies": {"fake-indexeddb": "6.0.1"}
+}
